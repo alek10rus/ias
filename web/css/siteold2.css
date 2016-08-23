@@ -1,0 +1,197 @@
+/*
+ * ТЕЛО САЙТА
+ */
+body {
+	background-color: #f5f5a4;
+}
+
+/*
+ * ШАПКА СТРАНИЦЫ
+ */
+#header {
+	width: 100%;
+	padding-left: 16vw;
+	font-family: Cambria;
+	font-weight: bold;
+	font-size: 1.7vw;
+	text-align: center;
+}
+
+/*
+ * ПОДБЛОКИ ШАПКИ САЙТА (#HEADER)
+ */
+ #header_left {
+	width: 10vw;
+	float: left;
+}
+#header_center {
+	padding-top: 2vw;
+	width: 50vw;
+	float: left;
+}
+
+#header_right {
+	width: 8vw;
+	float: left;
+
+}
+
+/*
+ * ПОЛЬЗОВАТЕЛЬ СИСТЕМЫ
+ */
+#user {
+	width: 47.5vw;
+	font-size: 1.8vw;
+	font-weight: normal;
+	font-family: Cambria;
+	text-align: right;
+}
+
+/*
+ * ССЫЛКИ ВНУТРИ БЛОКА С ПОЛЬЗОВАТЕЛЕМ В ПОКОЕ
+ */
+div#user a {
+	text-decoration: underline;
+	color: blue;
+	font-weight: normal;
+	font-size: 1.5vw;
+}
+
+/*
+ * ССЫЛКИ ВНУТРИ БЛОКА С ПОЛЬЗОВАТЕЛЕМ ПРИ НАВЕДЕНИИ
+ */
+div#user a:hover {
+	text-decoration: underline;
+	color: blue;
+	font-weight: normal;
+	font-size: 1.5vw;
+}
+
+/*
+ * РАСПОЛОЖЕНИЕ МЕНЮ
+ */
+#premenu {
+	padding-top: 12vw;
+	padding-left: 27vw;
+}
+
+/*
+ * МЕНЮ САЙТА
+ */
+#menu {
+	background-color: #c0c0c0;
+	border-radius: 5px;
+	width: 47vw;
+	height: 3.4vw;
+	font-size: 1.8vw;
+	font-weight: bold;
+	font-family: Cambria;
+	padding: 0.3vw 0.5vw 0.3vw 0.5vw;
+}
+
+/*
+ * КЛАССЫ ДЛЯ РАСПОЛОЖЕНИЯ ССЫЛОК В МЕНЮ
+ */ 
+.main_menu {
+	padding-left: 1.6vw;
+	float: left;
+}
+
+.disciplines_menu {
+	padding-left: 6.8vw;
+	float: left;
+}
+
+.new_menu {
+	padding-left: 6.8vw;
+	float: left;
+}
+
+/*
+ * ССЫЛКИ В МЕНЮ В ПОКОЕ
+ */
+a {
+	color: black;
+	font-size:1.8 vw;
+	text-decoration: none;
+	font-family: Cambria;
+	font-weight: bold;
+}
+
+/*
+ * ССЫЛКИ В МЕНЮ ПРИ НАВЕДЕНИИ
+ */
+a:hover {
+	color:black;	
+	font-size:1.8 vw;
+	text-decoration: underline;
+	font-family: Cambria;
+	font-weight: bold;
+}
+
+/*
+ * РАСПОЛОЖЕНИЕ СОДЕРЖИМОГО САЙТА
+ */
+#precontent {
+	padding-left: 28vw;
+	padding-top: 2vw;
+}
+
+/*
+ * СОДЕРЖИМОЕ САЙТА
+ */
+#content {
+	width: 47vw;
+	font-family: Cambria;
+}	
+
+/*
+  * ПРОМЕЖУТОК МЕЖДУ ПОДВАЛОМ И КОНТЕНТОМ
+  */
+.clear {
+	clear: both;
+}
+
+/*
+ * РАСПОЛОЖЕНИЕ ПОДВАЛА
+ */
+#prefooter{
+	padding-left: 28vw;
+	padding-top: 0.5vw;
+}
+
+/*
+ * ПОДВАЛ
+ */
+#footer {
+	width: 46vw;
+	font-size: 1.1vw;
+	font-weight: normal;
+	font-family: Cambria;
+	text-align: right;
+}
+
+/*
+ * ССЫЛКИ ВНУТРИ ПОДВАЛА В ПОКОЕ
+ */
+div#footer a {
+	text-decoration: underline;
+	color: blue;
+	font-weight: normal;
+	font-size: 1.5vw;
+}
+
+/*
+ * ССЫЛКИ ВНУТРИ ПОДВАЛА ПРИ НАВЕДЕНИИ
+ */
+div#footer a:hover {
+	text-decoration: underline;
+	color: blue;
+	font-weight: normal;
+	font-size: 1.5vw;
+}
+
+
+
+
+
